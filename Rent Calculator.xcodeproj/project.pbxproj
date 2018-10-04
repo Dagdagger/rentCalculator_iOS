@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63905A68BF692D6F3AE30668 /* Pods_Rent_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1047EC7D19E46ED202579B3 /* Pods_Rent_CalculatorTests.framework */; };
 		A1464E60210B4E96006AAE2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1464E5F210B4E96006AAE2E /* AppDelegate.swift */; };
 		A1464E62210B4E96006AAE2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1464E61210B4E96006AAE2E /* ViewController.swift */; };
 		A1464E65210B4E96006AAE2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1464E63210B4E96006AAE2E /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		A1464E6A210B4E96006AAE2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1464E68210B4E96006AAE2E /* LaunchScreen.storyboard */; };
 		A1464E75210B4E96006AAE2E /* Rent_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1464E74210B4E96006AAE2E /* Rent_CalculatorTests.swift */; };
 		A1464E80210B4E96006AAE2E /* Rent_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1464E7F210B4E96006AAE2E /* Rent_CalculatorUITests.swift */; };
+		A14DDF48213F897600E49142 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A14DDF47213F897500E49142 /* GoogleService-Info.plist */; };
+		A14DDF49213F897600E49142 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A14DDF47213F897500E49142 /* GoogleService-Info.plist */; };
+		A14DDF4A213F897600E49142 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A14DDF47213F897500E49142 /* GoogleService-Info.plist */; };
+		A1670C1D213CB63C0027FD72 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1670C1C213CB63C0027FD72 /* SecondViewController.swift */; };
+		D9C77C90EF14B3F2BC2C4079 /* Pods_Rent_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600CF089AF537535C7966716 /* Pods_Rent_CalculatorUITests.framework */; };
+		DA077B97877A5632A20654E8 /* Pods_Rent_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE2526E797D1CA91D644C26 /* Pods_Rent_Calculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AF04AA2BA38213B7E32B87B /* Pods-Rent Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rent Calculator/Pods-Rent Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		4659EEED965D8D5A2B1C0935 /* Pods-Rent CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent CalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rent CalculatorUITests/Pods-Rent CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		600CF089AF537535C7966716 /* Pods_Rent_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rent_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78565ACFCE107EF451552F94 /* Pods-Rent CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent CalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rent CalculatorTests/Pods-Rent CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		883896794713134B8BB15FDC /* Pods-Rent CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent CalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rent CalculatorTests/Pods-Rent CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE2526E797D1CA91D644C26 /* Pods_Rent_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rent_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1464E5C210B4E96006AAE2E /* Rent Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rent Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1464E5F210B4E96006AAE2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1464E5F210B4E96006AAE2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A1464E61210B4E96006AAE2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1464E64210B4E96006AAE2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1464E66210B4E96006AAE2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +60,12 @@
 		A1464E7B210B4E96006AAE2E /* Rent CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rent CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1464E7F210B4E96006AAE2E /* Rent_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rent_CalculatorUITests.swift; sourceTree = "<group>"; };
 		A1464E81210B4E96006AAE2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14DDF47213F897500E49142 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A1670C1C213CB63C0027FD72 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A19DD4A6214C84FE00BA3120 /* Rent Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rent Calculator.entitlements"; sourceTree = "<group>"; };
+		E1047EC7D19E46ED202579B3 /* Pods_Rent_CalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rent_CalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C3E3BEA01570CACE094DDF /* Pods-Rent Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rent Calculator/Pods-Rent Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		F666315398D443494B7CB88A /* Pods-Rent CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent CalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rent CalculatorUITests/Pods-Rent CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA077B97877A5632A20654E8 /* Pods_Rent_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63905A68BF692D6F3AE30668 /* Pods_Rent_CalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +89,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C77C90EF14B3F2BC2C4079 /* Pods_Rent_CalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AC832B1FC85E2D756CD189E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BE2526E797D1CA91D644C26 /* Pods_Rent_Calculator.framework */,
+				E1047EC7D19E46ED202579B3 /* Pods_Rent_CalculatorTests.framework */,
+				600CF089AF537535C7966716 /* Pods_Rent_CalculatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F05F51CC1008DBD14EAC23A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2C3E3BEA01570CACE094DDF /* Pods-Rent Calculator.debug.xcconfig */,
+				3AF04AA2BA38213B7E32B87B /* Pods-Rent Calculator.release.xcconfig */,
+				883896794713134B8BB15FDC /* Pods-Rent CalculatorTests.debug.xcconfig */,
+				78565ACFCE107EF451552F94 /* Pods-Rent CalculatorTests.release.xcconfig */,
+				4659EEED965D8D5A2B1C0935 /* Pods-Rent CalculatorUITests.debug.xcconfig */,
+				F666315398D443494B7CB88A /* Pods-Rent CalculatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1464E53210B4E96006AAE2E = {
 			isa = PBXGroup;
 			children = (
 				A1464E5E210B4E96006AAE2E /* Rent Calculator */,
 				A1464E73210B4E96006AAE2E /* Rent CalculatorTests */,
 				A1464E7E210B4E96006AAE2E /* Rent CalculatorUITests */,
-				A1464E5D210B4E96006AAE2E /* Products */,
+				2F05F51CC1008DBD14EAC23A /* Pods */,
+				0AC832B1FC85E2D756CD189E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,17 +138,21 @@
 				A1464E7B210B4E96006AAE2E /* Rent CalculatorUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A1464E5E210B4E96006AAE2E /* Rent Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A19DD4A6214C84FE00BA3120 /* Rent Calculator.entitlements */,
 				A1464E5F210B4E96006AAE2E /* AppDelegate.swift */,
 				A1464E61210B4E96006AAE2E /* ViewController.swift */,
 				A1464E63210B4E96006AAE2E /* Main.storyboard */,
 				A1464E66210B4E96006AAE2E /* Assets.xcassets */,
 				A1464E68210B4E96006AAE2E /* LaunchScreen.storyboard */,
 				A1464E6B210B4E96006AAE2E /* Info.plist */,
+				A14DDF47213F897500E49142 /* GoogleService-Info.plist */,
+				A1670C1C213CB63C0027FD72 /* SecondViewController.swift */,
 			);
 			path = "Rent Calculator";
 			sourceTree = "<group>";
@@ -121,6 +171,7 @@
 			children = (
 				A1464E7F210B4E96006AAE2E /* Rent_CalculatorUITests.swift */,
 				A1464E81210B4E96006AAE2E /* Info.plist */,
+				A1464E5D210B4E96006AAE2E /* Products */,
 			);
 			path = "Rent CalculatorUITests";
 			sourceTree = "<group>";
@@ -132,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1464E84210B4E96006AAE2E /* Build configuration list for PBXNativeTarget "Rent Calculator" */;
 			buildPhases = (
+				D4713B0B0AD54579A466BCCD /* [CP] Check Pods Manifest.lock */,
 				A1464E58210B4E96006AAE2E /* Sources */,
 				A1464E59210B4E96006AAE2E /* Frameworks */,
 				A1464E5A210B4E96006AAE2E /* Resources */,
+				DC8AF073493BBBD995F0A0E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1464E87210B4E96006AAE2E /* Build configuration list for PBXNativeTarget "Rent CalculatorTests" */;
 			buildPhases = (
+				AA8E927EE8A5CC651A26FC1D /* [CP] Check Pods Manifest.lock */,
 				A1464E6C210B4E96006AAE2E /* Sources */,
 				A1464E6D210B4E96006AAE2E /* Frameworks */,
 				A1464E6E210B4E96006AAE2E /* Resources */,
@@ -167,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1464E8A210B4E96006AAE2E /* Build configuration list for PBXNativeTarget "Rent CalculatorUITests" */;
 			buildPhases = (
+				C6C9EE206FF994ABCF01824C /* [CP] Check Pods Manifest.lock */,
 				A1464E77210B4E96006AAE2E /* Sources */,
 				A1464E78210B4E96006AAE2E /* Frameworks */,
 				A1464E79210B4E96006AAE2E /* Resources */,
@@ -194,6 +249,11 @@
 					A1464E5B210B4E96006AAE2E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					A1464E6F210B4E96006AAE2E = {
 						CreatedOnToolsVersion = 9.2;
@@ -233,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1464E6A210B4E96006AAE2E /* LaunchScreen.storyboard in Resources */,
+				A14DDF48213F897600E49142 /* GoogleService-Info.plist in Resources */,
 				A1464E67210B4E96006AAE2E /* Assets.xcassets in Resources */,
 				A1464E65210B4E96006AAE2E /* Main.storyboard in Resources */,
 			);
@@ -242,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14DDF49213F897600E49142 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,16 +311,99 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14DDF4A213F897600E49142 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA8E927EE8A5CC651A26FC1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rent CalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C9EE206FF994ABCF01824C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rent CalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4713B0B0AD54579A466BCCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rent Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8AF073493BBBD995F0A0E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rent Calculator/Pods-Rent Calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rent Calculator/Pods-Rent Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1464E58210B4E96006AAE2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1670C1D213CB63C0027FD72 /* SecondViewController.swift in Sources */,
 				A1464E62210B4E96006AAE2E /* ViewController.swift in Sources */,
 				A1464E60210B4E96006AAE2E /* AppDelegate.swift in Sources */,
 			);
@@ -424,9 +569,12 @@
 		};
 		A1464E85210B4E96006AAE2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C3E3BEA01570CACE094DDF /* Pods-Rent Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Rent Calculator/Rent Calculator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJW7675SCZ;
 				INFOPLIST_FILE = "Rent Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dagdagger.Rent-Calculator";
@@ -438,9 +586,12 @@
 		};
 		A1464E86210B4E96006AAE2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF04AA2BA38213B7E32B87B /* Pods-Rent Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Rent Calculator/Rent Calculator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJW7675SCZ;
 				INFOPLIST_FILE = "Rent Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dagdagger.Rent-Calculator";
@@ -452,6 +603,7 @@
 		};
 		A1464E88210B4E96006AAE2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883896794713134B8BB15FDC /* Pods-Rent CalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +620,7 @@
 		};
 		A1464E89210B4E96006AAE2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78565ACFCE107EF451552F94 /* Pods-Rent CalculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +637,7 @@
 		};
 		A1464E8B210B4E96006AAE2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4659EEED965D8D5A2B1C0935 /* Pods-Rent CalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +653,7 @@
 		};
 		A1464E8C210B4E96006AAE2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F666315398D443494B7CB88A /* Pods-Rent CalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
